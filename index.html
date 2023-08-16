@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./calculato.css" />
+    </head>
+    <body>
+        <div class="main-body">
+            <div id="container">
+                <output id="display"></output>
+                <div class="section">
+                    <button id="ac" data-type="reset" class="reset">AC</button>
+                    <button id="c" data-type="clear" class="clear">C</button>
+                    <button id="mod" data-type="operator" class="operation" value="%">%</button>
+                    <button id="division" data-type="operator" class="operation" value="/">/</button>
+                </div>
+                <div class="section">
+                    <button id="seven" data-type="number" class="number" value="7">7</button>
+                    <button id="eight" data-type="number" class="number" value="8">8</button>
+                    <button id="nine" data-type="number" class="number" value="9">9</button>
+                    <button id="addition" data-type="operator" class="operation" value="+">+</button>
+                </div>
+                <div class="section">
+                    <button id="four" data-type="number" class="number" value="4">4</button>
+                    <button id="five" data-type="number" class="number" value="5">5</button>
+                    <button id="six" data-type="number" class="number" value="6">6</button>
+                    <button id="substraction" data-type="operator" class="operation" value="-">-</button>
+                </div>
+                <div class="section">
+                    <button id="four" data-type="number" class="number" value="1">1</button>
+                    <button id="five" data-type="number" class="number" value="2">2</button>
+                    <button id="six" data-type="number" class="number" value="3">3</button>
+                    <button id="multiplication" data-type="operator" class="operation" value="*">&#215;</button>
+                </div>
+                <div class="section">
+                    <button id="zero" data-type="number" class="number" value="0">0</button>
+                    <button id="float" data-type="decimal" class="operation" value=".">.</button>
+                    <button id="equal" data-type="operator" class="operation" value="=">=</button>
+                </div>
+                <p>&#195;iden</p>
+            </div>
+        </div>
+        <script src="./calculator.js"></script>
+    </body>
+</html>
