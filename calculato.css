@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 25%;
-    height: 70vh;
+    height: 75vh;
     background-color: rgba(106, 63, 52, 0.674);
     border-radius: 30px;
 
@@ -23,9 +23,10 @@ body {
     box-shadow: 5px 10px rgb(15 7 5 / 67%);
 }
 #display {
-    background-color: rgb(102 75 75);
+    background-color:#695b48;
+
     width: 95%;
-    height: 10vh;
+    height: 25vh;
     border-radius: 15px;
     box-shadow: inset 0 0 10px #443030;
     text-align: right;
@@ -45,17 +46,26 @@ body {
     height: 9vh;
     border: none;
     border-radius: 50%;
-    box-shadow: inset 0 0 6px#07060785;
+    box-shadow:2px 2px white;
     text-align: center;
     background-color: #1c1717;
     color: white;
     font-size: larger;
+   
 }
 #equal {
     width: 41%;
     border: none;
+   
+    
 }
 button:hover {
     background-color: white;
     color: black;
+    box-shadow: 2px 2px black;
+}
+label{
+    color: white;
+    font-size: x-large;
+   
 }
